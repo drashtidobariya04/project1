@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: ui-sans-serif, system-ui, system-ui;
+        }
+
+        li .button1 .button2 {
+            font-size: 16px;
+            font-family: ui-sans-serif, system-ui, system-ui, ;
+            font-weight: 500;
+            color: white;
+        }
+
+        header {
+            background: #0F172A;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 50px;
+        }
+
+        .logo {
+
+            cursor: pointer;
+            color: white;
+        }
+
+        header li {
+            list-style: none;
+            color: gray;
+            display: inline-block;
+            padding: 0px 20px;
+        }
+
+        .button2,
+        .button1 {
+            padding: 8px 20px;
+            border: 1px solid black;
+            border-radius: 50px;
+            color: rgb(216, 213, 213);
+            background-color: rgb(22, 137, 182);
+            cursor: pointer;
+        }
+
+        .container {
+            padding: 15PX 90PX 10PX 90PX;
+            font-family: ui-sans-serif, system-ui;
+        }
+
+        main {
+            margin: 20px;
+
+        }
+
+        main h1 {
+            font-size: 48px;
+        }
+
+        .main p {
+            font-size: 18px;
+            padding-bottom: 15px;
+            color: gray;
+            padding: 8px 0px;
+        }
+
+        span {
+            background-color: rgb(89, 214, 89);
+            border-radius: 5px;
+            color: black;
+        }
+
+        p:hover {
+            color: rgb(201, 201, 218);
+        }
+
+        .backend h2 {
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 3em;
+        }
+
+        .backend p {
+            text-align: center;
+        }
+
+        .backend a {
+            text-decoration: none;
+            border: 2px solid black;
+            border-radius: 10px;
+            color: black;
+            padding: 5px;
+            margin-left: 400px;
+        }
+
+        .backend a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        footer {
+            background-color: #0F172A;
+            color: white;
+        }
+
+        .footerend {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="#"><i class="fa fa-university" aria-hidden="true"></i></a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li>Roadmaps</li>
+                <li>best practices</li>
+                <li>guides</li>
+                <li>video</li>
+            </ul>
+        </div>
+        <div class="button">
+            <button class="button1">login</button>
+            <button class="button2">sing up</button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <main>
+            <h1>Guides</h1>
+            <p>Succinct graphical explanations to engineering topics.</p>
+            <hr>
+
+        </main>
+
+        <div class="main">
+            <p>5 Free Resources to Master LLMs <span>new.MAY</span></p>
+            <hr>
+            <p>introduction to LLMs <span>new.MAY</span></p>
+            <hr>
+            <p>jump servers:what,why and how</p>
+            <hr>
+            <p>giude to let's encrypt SSL setup</p>
+            <hr>
+            <p>single command database setup</p>
+            <hr>
+            <p>consistency patterns</p>
+            <hr>
+            <p>session based authentication</p>
+            <hr>
+            <p>HTTP baisc authenatiction</p>
+            <hr>
+            <P>basics of authentication</P>
+            <hr>
+            <p>async and defer scrit loading</p>
+            <hr>
+            <p>what are web vitals?</p>
+            <hr>
+            <p>SLls,slos and slas</p>
+            <hr>
+            <p>what is Cl and cd?</p>
+            <hr>
+            <div class="backend">
+                <h2>Community</h2>
+                <p>roadmap.sh is the 6th most starred project on GitHub and is visited by <br> hundreds of thousands of
+                    developers every month.</p>
+                <a href="#"><i class="fa fa-star" aria-hidden="true"></i>243k github star </a>
+
+            </div> <!--  end backend -->
+        </div>
+    </div> <!--END container-->
+    <footer>
+        <pre class="footerend">
+            Roadmaps  best prectices  Guide  videos  store  youtube
+            </pre>
+    </footer>
+</body>
+
+</html>
